@@ -87,3 +87,46 @@ Hai thay đổi giúp giao diện thanh toán gọn gàng hơn, tăng khả năn
 ChatGPT được sử dụng như công cụ hỗ trợ trong quá trình phân tích và cải tiến giao diện. Các nội dung được hỗ trợ gồm đề xuất phương án thu gọn voucher, bổ sung bộ điều chỉnh số lượng sản phẩm và hỗ trợ kiểm tra logic cập nhật tổng tiền.
 
 Sau khi nhận đề xuất, em kiểm tra lại cấu trúc HTML, các bộ chọn CSS, sự kiện JavaScript và kết quả hiển thị trên trình duyệt. Các nội dung chưa kiểm chứng hoặc không phù hợp với yêu cầu bài tập cần được điều chỉnh trước khi sử dụng.
+# BÀI TẬP CÁ NHÂN BUỔI 2 – PHÁT TRIỂN ỨNG DỤNG WEB/TMĐT
+
+## 1. Giới thiệu bài tập
+
+Bài tập Buổi 2 tiếp tục phát triển website từ Buổi 1, tập trung cải thiện giao diện trang thanh toán của website thương mại điện tử Watsons Việt Nam bằng HTML5 và CSS3.
+
+Mục tiêu là thực hành cấu trúc HTML5, CSS Selector, Box Model, Flexbox, CSS Grid và các hiệu ứng tương tác cơ bản.
+
+**Sinh viên thực hiện:** Lê Bảo Ngọc
+
+**Mã sinh viên:** 31241027960
+
+## 2. Website tham khảo và khu vực đã cải tiến
+
+- **Website tham khảo:** https://www.watsons.vn/vi/
+- **Khu vực thực hiện:** Trang thanh toán.
+- **Các thành phần cải tiến:** Tiến trình thanh toán, thông tin nhận hàng, mã giảm giá, phương thức thanh toán và khu vực tóm tắt đơn hàng.
+
+## 3. Các kỹ thuật HTML5/CSS3 đã thực hành
+
+- HTML5: Sử dụng các phần tử ngữ nghĩa như header, main, section, aside, footer và danh sách ol, li.
+- CSS Selector: Thực hành element selector, class selector và descendant selector.
+- Box Model: Sử dụng margin, padding, border và border-radius.
+- Flexbox: Căn chỉnh các thành phần trong Header bằng display: flex, justify-content, align-items và gap.
+- CSS Grid: Bố trí danh sách sản phẩm bằng display: grid, grid-template-columns và gap.
+- Pseudo-class: Sử dụng hover và focus-visible.
+- Transition: Tạo hiệu ứng chuyển đổi mượt.
+- Responsive: Kiểm tra và điều chỉnh giao diện ở nhiều kích thước màn hình.
+
+## 4. Hướng dẫn chạy website
+
+1. Tải hoặc clone repository về máy tính.
+2. Mở thư mục dự án bằng Visual Studio Code.
+3. Mở file index.html bằng trình duyệt Chrome hoặc Microsoft Edge.
+4. Đảm bảo thư mục css và images nằm đúng vị trí để website tải được CSS và hình ảnh.
+
+## 5. Những thay đổi đã thực hiện
+
+- Cải thiện cấu trúc HTML5 cho tiến trình thanh toán.
+- Bổ sung và điều chỉnh CSS cho khu vực sản phẩm.
+- Thực hành căn chỉnh Header bằng Flexbox.
+- Bố trí danh sách sản phẩm bằng CSS Grid.
+- Bổ sung hiệu ứng
