@@ -643,6 +643,47 @@ a {
     padding: 12px 0;
     border-bottom: 1px solid #eeeeee;
 }
+/* =========================================
+   BƯỚC 9: THỰC HÀNH CSS GRID
+   ========================================= */
+
+/* Chia danh sách sản phẩm thành 2 cột */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+
+/* Định dạng từng sản phẩm trong Grid */
+.product-grid .summary-product {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+}
+
+/* Giữ hình ảnh đúng tỷ lệ */
+.product-grid .product-image,
+.product-grid .product-fallback {
+    width: 100%;
+    height: 100px;
+    flex: 0 0 100px;
+    object-fit: contain;
+}
+
+/* Định dạng thông tin sản phẩm */
+.product-grid .summary-product-info {
+    width: 100%;
+}
+
+/* Căn giá sản phẩm */
+.product-grid .product-cost {
+    align-self: flex-end;
+}
 
 .product-image,
 .product-fallback {
@@ -734,6 +775,7 @@ a {
     font-size: 10px;
 }
 
+/* Nút xác nhận đặt hàng */
 .place-order {
     width: 100%;
     min-height: 47px;
@@ -744,12 +786,22 @@ a {
     color: #ffffff;
     font-size: 14px;
     font-weight: 700;
+
+    /* ĐÃ CHỈNH SỬA: Tạo chuyển đổi mượt */
+    transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
+/* ĐÃ CHỈNH SỬA: Hiệu ứng khi di chuyển chuột */
 .place-order:hover {
     background: var(--red-dark);
+    transform: translateY(-2px);
 }
 
+/* ĐÃ CHỈNH SỬA: Trạng thái khi điều hướng bằng bàn phím */
+.place-order:focus-visible {
+    outline: 3px solid #f59e0b;
+    outline-offset: 3px;
+}
 .secure-note {
     margin-top: 11px;
     color: var(--muted);
@@ -989,4 +1041,57 @@ a {
     .summary-total strong {
         text-align: left;
     }
+}
+/* =========================================
+   BƯỚC 4: THỰC HÀNH CSS SELECTOR VÀ BOX MODEL
+   ========================================= */
+
+/* 1. ELEMENT SELECTOR */
+img {
+    max-width: 100%;
+}
+
+/* 2. CLASS SELECTOR: Khung sản phẩm */
+.summary-product {
+    margin: 12px 0;
+    padding: 12px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+/* 3. DESCENDANT SELECTOR: Tên sản phẩm */
+.summary-product .summary-product-info strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333333;
+}
+
+/* 4. DESCENDANT SELECTOR: Giá sản phẩm */
+.summary-product .product-cost {
+    color: #e31837;
+    font-size: 13px;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+/* 5. DESCENDANT SELECTOR: Liên kết sản phẩm */
+.summary-product a {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 8px 12px;
+    border: 1px solid #2563eb;
+    border-radius: 4px;
+    background-color: #2563eb;
+    color: #ffffff;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/* 6. Hiệu ứng khi di chuột vào liên kết */
+.summary-product a:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
 }
