@@ -1,16 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-RF6NP7091B"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-RF6NP7091B');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thanh toán | Watsons Việt Nam</title>
@@ -99,22 +89,21 @@
     </header>
 
     <!-- Tiến trình thanh toán -->
-    <nav class="container progress">
-        <div class="progress-step done">
+    <!-- ĐÃ CHỈNH SỬA: Dùng ol/li để thể hiện thứ tự các bước -->
+    <ol class="container progress" aria-label="Tiến trình thanh toán">
+        <li class="progress-step done">
             <span>1</span>
             <b>Giỏ hàng</b>
-        </div>
-        <i></i>
-        <div class="progress-step active">
+        </li>
+        <li class="progress-step active" aria-current="step">
             <span>2</span>
             <b>Thanh toán</b>
-        </div>
-        <i></i>
-        <div class="progress-step">
+        </li>
+        <li class="progress-step">
             <span>3</span>
             <b>Hoàn tất</b>
-        </div>
-    </nav>
+        </li>
+    </ol>
 
     <main class="container checkout-layout">
 
