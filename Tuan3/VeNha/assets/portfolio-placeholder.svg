@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="260" viewBox="0 0 350 260">
+ <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9ed17c"/><stop offset="1" stop-color="#7fbd62"/></linearGradient></defs>
+ <rect width="350" height="260" fill="url(#g)"/>
+ <circle cx="175" cy="82" r="38" fill="#ffffff" opacity=".12"/>
+ <path d="M80 180h190" stroke="#fff" stroke-width="2" opacity=".28"/>
+ <text x="175" y="137" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" fill="#f7fff0">Học Web Chuẩn</text>
+ <text x="175" y="163" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" letter-spacing="2" fill="#f7fff0" opacity=".8">CREATIVE PORTFOLIO</text>
+</svg>

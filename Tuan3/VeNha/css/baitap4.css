@@ -1,0 +1,4 @@
+.subject-menu{list-style:none;margin:20px 0;padding:0;text-align:center}
+.subject-menu li{display:inline-block;margin:0 3px 8px;vertical-align:middle}
+.subject-menu a{display:block;width:140px;padding:2px 8px;background:#00e5e5;color:#0000a8;text-align:center;font-family:Georgia,serif;font-size:28px;text-decoration:underline}
+.subject-menu a:hover{background:#00c8c8}

@@ -1,0 +1,42 @@
+:root{--ink:#20252b;--muted:#66717c;--teal:#00cfd0;--teal-dark:#008f91;--green:#0c7b53;--gold:#f0ad2e;--line:#dfe5e8;--surface:#f5f7f8;--navy:#192d42}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+a{color:inherit}
+img{max-width:100%;height:auto;display:block}
+.page-shell{width:min(1100px,calc(100% - 32px));margin:36px auto}
+.page-title{text-align:center;margin:0 0 28px;font-size:30px}
+.exercise-card{border:1px solid var(--line);border-radius:10px;padding:20px;margin:18px 0;background:#fff}
+.exercise-card h2{font-size:17px;margin:0 0 14px}
+.note{font-size:14px;color:var(--muted);margin:10px 0 0}
+.site-footer-mini{padding:22px;text-align:center;color:#6a737c;font-size:13px;border-top:1px solid var(--line);margin-top:46px}
+.profile-banner{display:flex;align-items:center;gap:22px;background:#f2f6f7;padding:26px;border-radius:14px;margin-bottom:24px}
+.profile-avatar{width:88px;height:88px;flex:none;border-radius:50%;border:3px solid #fff;box-shadow:0 2px 10px #0001}
+.profile-banner h1{margin:0 0 5px;font-size:26px}
+.profile-banner p{margin:3px 0;color:var(--muted)}
+.social-links{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+.social-links a{display:inline-block;padding:6px 12px;border-radius:20px;text-decoration:none;background:#fff;border:1px solid var(--line);font-size:13px}
+.assignment-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.assignment-link{display:block;text-decoration:none;border:1px solid var(--line);border-radius:12px;padding:18px;background:#fff;transition:transform .2s,box-shadow .2s}
+.assignment-link:hover{transform:translateY(-3px);box-shadow:0 10px 24px #142b3d14}
+.assignment-link strong{display:block;font-size:17px;margin-bottom:5px}
+.assignment-link span{color:var(--muted);font-size:14px}
+@media(max-width:650px){.page-shell{width:min(100% - 24px,1100px);margin:20px auto}.assignment-grid{grid-template-columns:1fr}.profile-banner{align-items:flex-start;flex-direction:column}}
+.profile-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dcebea;
+    color: #008f91;
+    font-size: 38px;
+    overflow: hidden;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info p i {
+    width: 18px;
+    color: var(--teal-dark);
+}

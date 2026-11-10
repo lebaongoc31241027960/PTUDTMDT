@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="vi">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập 2 - Định dạng văn bản bằng CSS</title>
+    <link rel="stylesheet" href="css/baitap2.css">
+</head>
+<body>
+    <main class="task2-wrapper">
+        <h1 class="page-title">Bài tập CSS - Yêu cầu 2</h1>
+
+        <!-- a. Định dạng chữ Đại học UEH -->
+        <section class="exercise-section">
+            <h2>a. Định dạng chữ Đại học UEH</h2>
+            <p class="ueh-text">Đại học UEH</p>
+        </section>
+
+        <!-- b. Định dạng chữ Khoa CNTTD -->
+        <section class="exercise-section">
+            <h2>b. Định dạng chữ Khoa CNTTD</h2>
+            <p class="cnttd-text">Khoa CNTTD</p>
+        </section>
+
+        <!-- c. Định dạng chữ BIT-UEH bằng text-shadow -->
+        <section class="exercise-section">
+            <h2>c. Định dạng chữ BIT-UEH bằng hiệu ứng text-shadow</h2>
+            <div class="bit-effect-area">
+                <p class="bit-text">BIT-UEH</p>
+            </div>
+        </section>
+
+        <!-- d. Logo BIT làm hình nền lặp lại và cố định -->
+        <section class="exercise-section">
+            <h2>d. Logo BIT làm hình nền lặp lại và cố định</h2>
+            <p>
+                Logo BIT được dùng làm hình nền của trang.
+                Hình nền có kích thước rộng 30px, tự động lặp lại
+                và giữ cố định khi cuộn trang.
+            </p>
+            <p class="note">
+                Họa tiết được đặt phía sau nội dung; các khung bài tập
+                có nền trắng để chữ luôn dễ đọc.
+            </p>
+        </section>
+
+        <!-- e. Định dạng đoạn văn và xử lý nội dung tràn -->
+        <section class="exercise-section">
+            <h2>e. Định dạng đoạn văn và xử lý nội dung tràn</h2>
+
+            <p class="source-paragraph">
+                Nhu cầu xã hội Ngành Thương mại điện tử (TMĐT)
+                tại Việt Nam hiện nay đang có những bước tăng trưởng
+                mạnh mẽ và ngày càng đóng góp nhiều hơn cho sự
+                phát triển kinh tế xã hội của đất nước.
+                Thị trường TMĐT Việt Nam đã trở nên sôi động hơn
+                khi có nhiều
+            </p>
+
+            <!-- i. Ẩn nội dung khi bị tràn -->
+            <div class="overflow-example">
+                <h3>i. Rộng 100px, cao 50px; ẩn nội dung khi bị tràn</h3>
+                <p class="overflow-hidden">
+                    Nhu cầu xã hội Ngành Thương mại điện tử (TMĐT)
+                    tại Việt Nam hiện nay đang có những bước tăng trưởng
+                    mạnh mẽ và ngày càng đóng góp nhiều hơn cho sự
+                    phát triển kinh tế xã hội của đất nước.
+                </p>
+            </div>
+
+            <!-- ii. Cắt nội dung bằng dấu ba chấm -->
+            <div class="overflow-example">
+                <h3>ii. Cắt nội dung bị tràn với chữ ...</h3>
+                <p class="overflow-ellipsis">
+                    Nhu cầu xã hội Ngành Thương mại điện tử (TMĐT)
+                    tại Việt Nam hiện nay đang có những bước tăng trưởng
+                    mạnh mẽ và ngày càng đóng góp nhiều hơn cho sự
+                    phát triển kinh tế xã hội của đất nước.
+                </p>
+            </div>
+
+            <!-- iii. Không cho phép xuống dòng -->
+            <div class="overflow-example">
+                <h3>iii. Sử dụng white-space: nowrap</h3>
+                <div class="nowrap-container">
+                    <p class="nowrap-text">
+                        Nhu cầu xã hội Ngành Thương mại điện tử (TMĐT)
+                        tại Việt Nam hiện nay đang có những bước tăng trưởng
+                        mạnh mẽ và ngày càng đóng góp nhiều hơn cho sự
+                        phát triển kinh tế xã hội của đất nước.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

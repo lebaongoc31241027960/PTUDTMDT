@@ -1,0 +1,12 @@
+body{font-family:Arial,Helvetica,sans-serif;background:#fff}
+.hosting-hero{max-width:1100px;margin:58px auto;padding:20px 24px;text-align:center}
+.hosting-logo{height:58px;display:flex;justify-content:center;align-items:center;margin-bottom:14px}
+.hosting-logo img{width:200px;max-height:58px;object-fit:contain}
+.hosting-hero h1{margin:0 0 18px;font-size:clamp(32px,5vw,46px);font-weight:400;color:#35383b}
+.hosting-hero h1 strong{font-weight:700;color:#08a9df}
+.hosting-lead{margin:0 auto 48px;max-width:940px;font-size:15px;color:#34383b}
+.hosting-actions{display:flex;justify-content:center;gap:26px;margin:0;padding:0;list-style:none}
+.hosting-actions a{display:inline-block;min-width:180px;padding:18px 24px;background:#292d30;color:#fff;text-decoration:none;border-radius:4px;font-size:15px}
+.hosting-actions a:hover{background:#087fa7}
+.hosting-actions i{margin-right:7px}
+@media(max-width:520px){.hosting-actions{flex-direction:column;align-items:center}.hosting-actions a{width:220px}}

@@ -1,0 +1,5 @@
+#wrapper{width:min(360px,100%);margin:24px auto;padding:8px;border:3px solid #1d1d1d;box-shadow:-16px 15px 20px rgba(0,0,0,.22);display:grid;grid-template-rows:58px 270px 48px;gap:6px;background:#fff}
+.layout-header,.layout-nav,.layout-main,.layout-footer{border:2px solid #222;padding:10px;font-size:19px;background:#fff}
+.layout-content{display:grid;grid-template-columns:82px 1fr;gap:6px;min-height:0}
+.layout-nav,.layout-main{height:100%}
+.layout-footer{display:flex;align-items:center}
