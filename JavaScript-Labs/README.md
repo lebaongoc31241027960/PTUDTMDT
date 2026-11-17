@@ -3,9 +3,9 @@
 Bộ bài thực hành Chương 4 JavaScript gồm ba Lab theo tài liệu hướng dẫn đi kèm.
 
 ## Thông tin sinh viên
-- Họ và tên: [CẬP NHẬT HỌ VÀ TÊN]
-- MSSV: [CẬP NHẬT MSSV]
-- Lớp học phần: [CẬP NHẬT LỚP]
+- Họ và tên: Lê Bảo Ngọc
+- MSSV: 31241027960
+- Lớp học phần: 26C1INF50902702 
 - Repository: https://github.com/lebaongoc31241027960/PTUDTMDT
 
 ## Mục tiêu
@@ -46,10 +46,10 @@ JavaScript-Labs/
 5. Lab 10 sử dụng bản jQuery cục bộ trong `Lab10/js/jquery-3.1.1.min.js`; hai bài GET cần kết nối Internet và dịch vụ bên ngoài còn hoạt động.
 
 ## GitHub Pages
-Sau khi bật GitHub Pages cho repository, các đường dẫn dự kiến:
-- Portfolio: `https://lebaongoc31241027960.github.io/PTUDTMDT/JavaScript-Labs/`
-- Lab 08: `https://lebaongoc31241027960.github.io/PTUDTMDT/JavaScript-Labs/Lab08/`
-- Lab 09: `https://lebaongoc31241027960.github.io/PTUDTMDT/JavaScript-Labs/Lab09/`
-- Lab 10: `https://lebaongoc31241027960.github.io/PTUDTMDT/JavaScript-Labs/Lab10/`
+Sau khi bật GitHub Pages cho repository, các đường dẫn dự:
+- Portfolio: https://lebaongoc31241027960.github.io/PTUDTMDT/JavaScript-Labs
+- Lab 08: `https://lebaongoc31241027960.github.io/PTUDTMDT/JavaScript-Labs/Lab08
+- Lab 09: `https://lebaongoc31241027960.github.io/PTUDTMDT/JavaScript-Labs/Lab09
+- Lab 10: `https://lebaongoc31241027960.github.io/PTUDTMDT/JavaScript-Labs/Lab10
 
-Lưu ý: GitHub Pages cần có `index.html` trong mỗi thư mục Lab nếu muốn mở trực tiếp đường dẫn thư mục. Hiện các bài dùng file walkthrough riêng; hãy mở đúng file HTML theo từng Exercise.
+
